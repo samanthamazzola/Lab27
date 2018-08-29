@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<br />
+<h1>Your 12 day forecast for: </h1>
+<h2>@ViewBag.forecastLocation</h2>
+<br />
+<div class="container">
+    <div class="row">
+        @for (int i = 0; i < 13; i++)
+        {
+            <div class="col-md-8"> <p><span class="glyphicon glyphicon-cloud"></span> @ViewBag.forecast[i]</p> </div>
+            <div class="=col-md-4"><img src="@ViewBag.forecastImg[i]"></img></div>
+        }
+    </div>
+</div>
+<br />
+
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab27API", "Lab27API\Lab27API.csproj", "{104237B4-413E-4C2F-91D4-BC517FE42800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{104237B4-413E-4C2F-91D4-BC517FE42800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104237B4-413E-4C2F-91D4-BC517FE42800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104237B4-413E-4C2F-91D4-BC517FE42800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104237B4-413E-4C2F-91D4-BC517FE42800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9F627C9-5688-4D8D-A574-6517CB37C69D}
+	EndGlobalSection
+EndGlobal
